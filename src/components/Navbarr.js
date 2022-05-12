@@ -41,7 +41,7 @@ function Navbarr() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h1 style={{ color: 'purple' }} className='img-fluid logo'> IFEANYIOSI</h1>
+          <h1 style={{ color: '#c770f0' }} className='img-fluid logo'> IFEANYIOSI</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
