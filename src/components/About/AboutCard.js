@@ -28,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "If I have credibility, character, competence and companion, I will inevitably attract prosperity!"{" "}
           </p>
-          <footer className="blockquote-footer">IfeanyiOsi</footer>
+          <footer className="blockquote-footer">@Olawaleesq</footer>
         </blockquote>
       </Card.Body>
     </Card>
