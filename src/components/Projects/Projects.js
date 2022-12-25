@@ -80,6 +80,16 @@ function Projects() {
               link="https://github.com/ifeanyiosi/Netflix-Clone"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="PWA Weather App"
+              description="Made an app that is installable on desktop and mobile"
+              link="https://ifeanyi-pwa-weather.netlify.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
