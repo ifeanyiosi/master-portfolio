@@ -8,6 +8,9 @@ import editor from "../../Assets/projects/form.png";
 import chatify from "../../Assets/projects/gamer-com.png";
 import suicide from "../../Assets/projects/matrix.png";
 import bitsOfCode from "../../Assets/projects/portfolio.png";
+import nike from "../../Assets/projects/nike.png";
+import smg from "../../Assets/projects/smg.png";
+import pwa from "../../Assets/projects/pwa.png";
 
 function Projects() {
   return (
@@ -23,7 +26,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={nike}
               isBlog={false}
               title="Nike Ecommerce Store"
               description="Made an ecommerce store with React and Redux"
@@ -33,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={smg}
               isBlog={false}
               title="Source My Gadgets Ecommerce page"
               description="I was part of a front-end team that built this ecommerce store using React and Tailwind"
@@ -83,7 +86,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={pwa}
               isBlog={false}
               title="PWA Weather App"
               description="Made an app that is installable on desktop and mobile"
