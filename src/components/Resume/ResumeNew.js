@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from '../../Assets/ifeanyi.pdf'
+import pdf from "../../Assets/ifeanyiJsx.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/ifeanyiosi/master-portfolio/blob/master/src/Assets/IFEANYI%20OSI-OKEKE%20jsx.pdf";
+  "https://github.com/ifeanyiosi/master-portfolio/blob/master/src/Assets/ifeanyiJsx.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

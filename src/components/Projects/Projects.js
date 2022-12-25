@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/amazon.png";
-import emotion from "../../Assets/Projects/colors.png";
-import editor from "../../Assets/Projects/form.png";
-import chatify from "../../Assets/Projects/gamer-com.png";
-import suicide from "../../Assets/Projects/matrix.png";
-import bitsOfCode from "../../Assets/Projects/portfolio.png";
+import leaf from "../../Assets/projects/amazon.png";
+import emotion from "../../Assets/projects/colors.png";
+import editor from "../../Assets/projects/form.png";
+import chatify from "../../Assets/projects/gamer-com.png";
+import suicide from "../../Assets/projects/matrix.png";
+import bitsOfCode from "../../Assets/projects/portfolio.png";
 
 function Projects() {
   return (
@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Amazon Clone"
-              description="Made an amazon clone with React and Redux"
-              link="https://github.com/ifeanyiosi/amazon-clone"
+              title="Nike Ecommerce Store"
+              description="Made an ecommerce store with React and Redux"
+              link="https://ifeanyi-nike.netlify.app/"
             />
           </Col>
 
@@ -35,9 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Colors Site"
-              description="First site I worked on after learning JavaScript"
-              link="https://github.com/ifeanyiosi/ColorSite"
+              title="Source My Gadgets Ecommerce page"
+              description="I was part of a front-end team that built this ecommerce store using React and Tailwind"
+              link="https://sourcemygadgets.com/"
             />
           </Col>
 
